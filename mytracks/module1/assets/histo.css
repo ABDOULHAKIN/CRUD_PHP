@@ -1,0 +1,51 @@
+/* Style pour le conteneur de chaque module */
+.module-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; /* Trois colonnes de largeur égale */
+    grid-template-rows: 170px 1fr;
+    gap: 10px; /* Espacement entre les éléments de la grille */
+    align-items: center; /* Centrer les éléments horizontalement */
+    margin-bottom: 20px;
+    max-width: 0; /* Limiter la largeur des modules pour une meilleure esthétique */
+    padding: 20px;
+    border-radius: 5px; /* Coins arrondis */
+    padding: 5px; /* Espacement intérieur */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1300px;
+}
+
+/* Style pour le conteneur du graphique */
+.chart-container {
+    height: 200px; /* Hauteur du conteneur du graphique */
+    width: 500px;
+    padding: 0%;
+    margin: 0%;
+}
+
+/* Style pour les informations du module */
+.module-info {
+    text-align: left;
+    height: 180px;
+}
+
+/* Style pour le titre des informations du module */
+.module-info h2 {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+/* Style pour les informations du module */
+.module-info p {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+
+
+/* Style pour le conteneur global des modules */
+.module-grid {
+    display: grid;
+    grid-template-columns: 1fr; /* Une seule colonne */
+    gap: 20px; /* Espacement entre les éléments de la grille */
+}
